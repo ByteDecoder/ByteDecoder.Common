@@ -41,6 +41,7 @@ jobs:
       run: cd src && ./release-docfx-github.sh
       env:
         BYTEDECODER_COMMON_GITHUB_CI_ACTIONS: ${{ secrets.BYTEDECODER_COMMON_GITHUB_CI_ACTIONS }}
+        GITHUB_EMAIL: ${{ secrets.DOCFX_GITHUB_EMAIL }}
 
     - name: List gh-pages content
       run: cd gh-pages && ls -alt
