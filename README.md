@@ -1,8 +1,8 @@
 # ByteDecoder.Common
 
 ![.NET Core](https://github.com/ByteDecoder/ByteDecoder.Common/workflows/.NET%20Core/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/4f3ae2336b3de0e2a78f/maintainability)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/4f3ae2336b3de0e2a78f/test_coverage)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/024aeeba0e933733b9dd/maintainability)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/024aeeba0e933733b9dd/test_coverage)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/test_coverage)
 
 Common utility classes, guard clauses, and more.
 
