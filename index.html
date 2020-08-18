@@ -1,1 +1,151 @@
-The documentation will be here.
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ByteDecoder.Common </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="ByteDecoder.Common ">
+    <meta name="generator" content="docfx 2.45.1.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bytedecodercommon">ByteDecoder.Common</h1>
+
+<p><img src="https://github.com/ByteDecoder/ByteDecoder.Common/workflows/.NET%20Core/badge.svg" alt=".NET Core">
+<a href="https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/maintainability"><img src="https://api.codeclimate.com/v1/badges/4f3ae2336b3de0e2a78f/maintainability" alt="Maintainability"></a>
+<a href="https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4f3ae2336b3de0e2a78f/test_coverage" alt="Test Coverage"></a></p>
+<p>Common utility classes, guard clauses, and more.</p>
+<p>Targeted to .Net Standard 2.0</p>
+<h2 id="installation">Installation</h2>
+<p>Install the <a href="https://www.nuget.org/packages/ByteDecoder.Common">ByteDecoder.Common NuGet Package</a>.</p>
+<h3 id="package-manager-console">Package Manager Console</h3>
+<pre><code class="lang-porwershell">Install-Package ByteDecoder.Common
+</code></pre>
+<h3 id="net-core-cli">.NET Core CLI</h3>
+<pre><code class="lang-bash">dotnet add package ByteDecoder.Common
+</code></pre>
+<h2 id="examples-and-usage">Examples and usage</h2>
+<h3 id="guard-clauses">Guard Clauses</h3>
+<p>They are a piece of code in charge of protecting params at the top of methods against undesirable values.</p>
+<p>Supported <em>Guard Clauses</em>:</p>
+<ul>
+<li>IfArgumentIsNull</li>
+<li>IfArgumentIsNullOrEmpty</li>
+<li>IfArgumentOutOfRange</li>
+</ul>
+<p>Usage examples:</p>
+<pre><code class="lang-csharp">using ByteDecoder.Common.GuardClauses;
+
+// Null Argument Guard check
+public void MethodOne(IEnumerable&lt;string&gt; collection)
+{
+  Guard.Break.IfArgumentIsNull(collection, nameof(collection));
+  
+  // More logic code if the param is suitable after the guard evaluates the condition.
+}
+
+// String is NUll or Empty Guard check
+public void MethodTwo(string word)
+{
+  Guard.Break.IfArgumentIsNull(word, nameof(word));
+  
+  // More logic code if the param is suitable after the guard evaluates the condition.
+}
+
+// Calling the method and passing a null value in the param
+MethodOne((IEnumerable&lt;string&gt;) null);  // This will throw an ArgumentNullException
+MethodTwo(string.Empty);  // This will throw an ArgumentNullException
+</code></pre>
+<h2 id="contributing">Contributing</h2>
+<p>Bug reports and pull requests are welcome on GitHub at <a href="https://github.com/ByteDecoder/ByteDecoder.Common">https://github.com/ByteDecoder/ByteDecoder.Common</a>.</p>
+<p>Copyright (c) 2020 <a href="https://twitter.com/bytedecoder">Rodrigo Reyes</a> released under the MIT license</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ByteDecoder/ByteDecoder.Common/blob/master/docs/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

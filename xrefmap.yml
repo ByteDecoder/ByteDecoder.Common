@@ -1,0 +1,250 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: ByteDecoder.Common
+  name: ByteDecoder.Common
+  href: api/ByteDecoder.Common.html
+  commentId: N:ByteDecoder.Common
+  fullName: ByteDecoder.Common
+  nameWithType: ByteDecoder.Common
+- uid: ByteDecoder.Common.GuardClauses
+  name: ByteDecoder.Common.GuardClauses
+  href: api/ByteDecoder.Common.GuardClauses.html
+  commentId: N:ByteDecoder.Common.GuardClauses
+  fullName: ByteDecoder.Common.GuardClauses
+  nameWithType: ByteDecoder.Common.GuardClauses
+- uid: ByteDecoder.Common.GuardClauses.Guard
+  name: Guard
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html
+  commentId: T:ByteDecoder.Common.GuardClauses.Guard
+  fullName: ByteDecoder.Common.GuardClauses.Guard
+  nameWithType: Guard
+- uid: ByteDecoder.Common.GuardClauses.Guard.Break
+  name: Break
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_Break
+  commentId: P:ByteDecoder.Common.GuardClauses.Guard.Break
+  fullName: ByteDecoder.Common.GuardClauses.Guard.Break
+  nameWithType: Guard.Break
+- uid: ByteDecoder.Common.GuardClauses.Guard.Break*
+  name: Break
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_Break_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.Guard.Break
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.Guard.Break
+  nameWithType: Guard.Break
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull*
+  name: IfArgumentIsNull
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNull_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull
+  nameWithType: Guard.IfArgumentIsNull
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull``1(``0,System.String)
+  name: IfArgumentIsNull<T>(T, String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNull__1___0_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull``1(``0,System.String)
+  name.vb: IfArgumentIsNull(Of T)(T, String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull<T>(T, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull(Of T)(T, System.String)
+  nameWithType: Guard.IfArgumentIsNull<T>(T, String)
+  nameWithType.vb: Guard.IfArgumentIsNull(Of T)(T, String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull``1(``0,System.String,System.String)
+  name: IfArgumentIsNull<T>(T, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNull__1___0_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull``1(``0,System.String,System.String)
+  name.vb: IfArgumentIsNull(Of T)(T, String, String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull<T>(T, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNull(Of T)(T, System.String, System.String)
+  nameWithType: Guard.IfArgumentIsNull<T>(T, String, String)
+  nameWithType.vb: Guard.IfArgumentIsNull(Of T)(T, String, String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String,System.String)
+  name: IfArgumentIsNullOrEmpty(String, String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNullOrEmpty_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String,System.String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String, System.String)
+  nameWithType: Guard.IfArgumentIsNullOrEmpty(String, String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String,System.String,System.String)
+  name: IfArgumentIsNullOrEmpty(String, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNullOrEmpty_System_String_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String,System.String,System.String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty(System.String, System.String, System.String)
+  nameWithType: Guard.IfArgumentIsNullOrEmpty(String, String, String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty*
+  name: IfArgumentIsNullOrEmpty
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentIsNullOrEmpty_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty
+  nameWithType: Guard.IfArgumentIsNullOrEmpty
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
+  name: IfArgumentOutOfRange(Func<Boolean>, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentOutOfRange_Func_System_Boolean__System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
+  name.vb: IfArgumentOutOfRange(Func(Of Boolean), String, String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func<System.Boolean>, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func(Of System.Boolean), System.String, System.String)
+  nameWithType: Guard.IfArgumentOutOfRange(Func<Boolean>, String, String)
+  nameWithType.vb: Guard.IfArgumentOutOfRange(Func(Of Boolean), String, String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange*
+  name: IfArgumentOutOfRange
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentOutOfRange_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange
+  nameWithType: Guard.IfArgumentOutOfRange
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause
+  name: IGuardClause
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html
+  commentId: T:ByteDecoder.Common.GuardClauses.IGuardClause
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause
+  nameWithType: IGuardClause
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull*
+  name: IfArgumentIsNull
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNull_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull
+  nameWithType: IGuardClause.IfArgumentIsNull
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull``1(``0,System.String)
+  name: IfArgumentIsNull<T>(T, String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNull__1___0_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull``1(``0,System.String)
+  name.vb: IfArgumentIsNull(Of T)(T, String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull<T>(T, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull(Of T)(T, System.String)
+  nameWithType: IGuardClause.IfArgumentIsNull<T>(T, String)
+  nameWithType.vb: IGuardClause.IfArgumentIsNull(Of T)(T, String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull``1(``0,System.String,System.String)
+  name: IfArgumentIsNull<T>(T, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNull__1___0_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull``1(``0,System.String,System.String)
+  name.vb: IfArgumentIsNull(Of T)(T, String, String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull<T>(T, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNull(Of T)(T, System.String, System.String)
+  nameWithType: IGuardClause.IfArgumentIsNull<T>(T, String, String)
+  nameWithType.vb: IGuardClause.IfArgumentIsNull(Of T)(T, String, String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String,System.String)
+  name: IfArgumentIsNullOrEmpty(String, String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNullOrEmpty_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String,System.String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String, System.String)
+  nameWithType: IGuardClause.IfArgumentIsNullOrEmpty(String, String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String,System.String,System.String)
+  name: IfArgumentIsNullOrEmpty(String, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNullOrEmpty_System_String_System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String,System.String,System.String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty(System.String, System.String, System.String)
+  nameWithType: IGuardClause.IfArgumentIsNullOrEmpty(String, String, String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty*
+  name: IfArgumentIsNullOrEmpty
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentIsNullOrEmpty_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty
+  nameWithType: IGuardClause.IfArgumentIsNullOrEmpty
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
+  name: IfArgumentOutOfRange(Func<Boolean>, String, String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentOutOfRange_Func_System_Boolean__System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
+  name.vb: IfArgumentOutOfRange(Func(Of Boolean), String, String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func<System.Boolean>, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func(Of System.Boolean), System.String, System.String)
+  nameWithType: IGuardClause.IfArgumentOutOfRange(Func<Boolean>, String, String)
+  nameWithType.vb: IGuardClause.IfArgumentOutOfRange(Func(Of Boolean), String, String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange*
+  name: IfArgumentOutOfRange
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentOutOfRange_
+  commentId: Overload:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange
+  isSpec: "True"
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange
+  nameWithType: IGuardClause.IfArgumentOutOfRange
+- uid: ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute
+  name: ValidatedNotNullAttribute
+  href: api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html
+  commentId: T:ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute
+  fullName: ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute
+  nameWithType: ValidatedNotNullAttribute
+- uid: ByteDecoder.Common.MathComparisonExtensions
+  name: MathComparisonExtensions
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html
+  commentId: T:ByteDecoder.Common.MathComparisonExtensions
+  fullName: ByteDecoder.Common.MathComparisonExtensions
+  nameWithType: MathComparisonExtensions
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsEqualTo(System.Int32,System.Int32)
+  name: IsEqualTo(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsEqualTo_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsEqualTo(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsEqualTo(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsEqualTo(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsEqualTo*
+  name: IsEqualTo
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsEqualTo_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsEqualTo
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsEqualTo
+  nameWithType: MathComparisonExtensions.IsEqualTo
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan(System.Int32,System.Int32)
+  name: IsGreaterThan(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsGreaterThan_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsGreaterThan(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan*
+  name: IsGreaterThan
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsGreaterThan_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThan
+  nameWithType: MathComparisonExtensions.IsGreaterThan
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo(System.Int32,System.Int32)
+  name: IsGreaterThanOrEqualTo(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsGreaterThanOrEqualTo_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsGreaterThanOrEqualTo(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo*
+  name: IsGreaterThanOrEqualTo
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsGreaterThanOrEqualTo_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsGreaterThanOrEqualTo
+  nameWithType: MathComparisonExtensions.IsGreaterThanOrEqualTo
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsLessThan(System.Int32,System.Int32)
+  name: IsLessThan(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsLessThan_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsLessThan(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsLessThan(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsLessThan(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsLessThan*
+  name: IsLessThan
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsLessThan_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsLessThan
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsLessThan
+  nameWithType: MathComparisonExtensions.IsLessThan
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo(System.Int32,System.Int32)
+  name: IsLessThanOrEqualTo(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsLessThanOrEqualTo_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsLessThanOrEqualTo(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo*
+  name: IsLessThanOrEqualTo
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsLessThanOrEqualTo_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsLessThanOrEqualTo
+  nameWithType: MathComparisonExtensions.IsLessThanOrEqualTo
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo(System.Int32,System.Int32)
+  name: IsNotEqualTo(Int32, Int32)
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsNotEqualTo_System_Int32_System_Int32_
+  commentId: M:ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo(System.Int32,System.Int32)
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo(System.Int32, System.Int32)
+  nameWithType: MathComparisonExtensions.IsNotEqualTo(Int32, Int32)
+- uid: ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo*
+  name: IsNotEqualTo
+  href: api/ByteDecoder.Common.MathComparisonExtensions.html#ByteDecoder_Common_MathComparisonExtensions_IsNotEqualTo_
+  commentId: Overload:ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo
+  isSpec: "True"
+  fullName: ByteDecoder.Common.MathComparisonExtensions.IsNotEqualTo
+  nameWithType: MathComparisonExtensions.IsNotEqualTo
