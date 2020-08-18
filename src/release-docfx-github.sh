@@ -19,8 +19,8 @@ echo "Copy documentation into the repo"
 cp -r $SOURCE_DIR/../docs/_site/* .
 
 echo "Push the new docs to the remote branch"
-git config --global user.email %${DOCFX_GITHUB_EMAIL}
-git config --global user.name "ByteDecoder"
+git config --global user.email ${DOCFX_GITHUB_EMAIL}
+git config --global user.name ByteDecoder
 
 git add . -A
 git commit -m "Update generated documentation"
