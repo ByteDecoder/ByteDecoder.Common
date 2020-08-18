@@ -1,5 +1,13 @@
 # Project Development guidleines
 
+## Generating the Library DocFX documentation
+
+Execute in the commandline the next bash script
+
+```bash
+./release-docfx/sh
+```
+
 ## Installing dotnet-format tool
 
 ```bash
