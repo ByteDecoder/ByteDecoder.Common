@@ -1,0 +1,51 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.302
+
+    - name: Install dependencies
+      run: cd src && dotnet restore
+
+    - name: Build
+      run: cd src && dotnet build --configuration Release --no-restore
+
+    - name: Linting code with dotnet-format
+      run: cd src && ./run-dotnet-format.sh
+
+    - name: Test
+      run: cd src && ./codeclimate_code_coverage.sh
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+    
+    - name: docfx-action
+      uses: nikeee/docfx-action@v1.0.0
+      with:
+        args: docs/docfx.json
+
+    - name: Checkout gh-pages repo
+      uses: actions/checkout@master
+      with:
+        repository: ByteDecoder/ByteDecoder.Common
+        path: gh-pages
+        ref: gh-pages
+        token: ${{ secrets.BYTEDECODER_COMMON_GITHUB_CI_ACTIONS }}
+    
+    - name: List gh-pages content
+      run: cd gh-pages && ls -alt
+
+

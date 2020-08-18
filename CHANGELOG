@@ -1,0 +1,25 @@
+### 0.3.2 - 2020-08-14
+  * DocFX documentaiton completed
+  * Official documentation url https://bytedecoder.me/ByteDecoder.Common/
+  
+### 0.3.1 - 2020-08-13
+  * Guard interface implementation refactored
+  * StyleCop and FxCop analyzers added as part of the development workflow
+  * Violating the analyzers rules will throw errors on compile, until they are fix
+  * All methods, classes and interfaces consumables for third parties in the Library has now documentation
+
+### 0.3.0 - 2020-07-29
+  * Added MathComparisonExtensions extensions methods for math comparisions
+  * Added IfArgumentOutOfRange Guard clause
+
+### 0.2.3 - 2020-07-28
+  * Fixed problem with Possible multiple enumeration of IEnumerable using with Resharper with JETBRAINS_ANNOTATIONS compilation symbol 
+
+### 0.2.1 - 2020-07-28
+  * Added AllowedOutputExtensionsInPackageBuildOutputFolder in ByteDecoder.Common project
+
+### 0.2.0 - 2020-07-27
+  * Added Jetbrains Annotations for avoding false positive: Possible multiple enumeration of IEnumerable
+
+### 0.1.0 - 2020-07-27
+  * Initial release
