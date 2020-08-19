@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "mwCodEcp34WXyz9J7D2Wyg=="
+          "hash": "hDTku+HnGwWFNbU0vCgabw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "l80IhlK85aGF0PKrQkCiZQ=="
+          "hash": "RpunaRIhjb/m4U1eisTlzQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "l8P2eA69/gWwP4VH5a/C7A=="
+          "hash": "75geGaQ/ZksoISbDpKwCAg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "xKazgaQ5flyqA9cmkXsPRg=="
+          "hash": "5rIZ5+/PHFcYsULpX4MtEA=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "WVQfM74TVUlIo+PMghbpCg=="
+          "hash": "1PHqIJpISXlwup4IQhRlwQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "SBhqJ70MqgxWIImbvLj2NQ=="
+          "hash": "Wn6hf/e2SYhPhIAI6oh8aA=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "6/RtW7px8aZyZIms/HhExA=="
+          "hash": "lDR2M6RI4pAbuFXzKUPbCQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "utYiQ09uFg3dQXX965pi8Q=="
+          "hash": "/DxZAFDdCDozLrwU1qNk7g=="
         }
       },
       "is_incremental": false,
@@ -124,12 +124,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/lines.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/lines.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Qebv953/A9/3z8hmZ+NQjQ=="
+          "hash": "FpDgAFg0k6STBZ5Ji6Kmfg=="
         }
       },
       "is_incremental": false,
@@ -169,6 +180,13 @@
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 6,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
