@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "CLk4IPqntmZix9bLSIfTrQ=="
+          "hash": "e5EojSmKD5/FVw/u9E/z+A=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "xrjuq4a6HXDXlTG1ERjlUw=="
+          "hash": "4GxJcHbl2xBLaDY4rRhyug=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "CB+a6VqLibLg0aEaiUpFDQ=="
+          "hash": "tbpazsTRG1Tz38GDvuQJXA=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "VIVunKkjrZAn9p/vtTjkoQ=="
+          "hash": "9gM3n6AC98wm3AZB4zyUpw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "TZB9ihO0p/RwAItTQpa+9A=="
+          "hash": "vT4UOHWtYmgxRwTgRVT6NQ=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "PdF/LW99ZIrXx5gwRDhTuA=="
+          "hash": "Y/VgGr/tpXJiyT6D+qKZSg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Jcmb5vStTTzY/Rmhay/VsA=="
+          "hash": "XLgv8e6JoLKRn/CM1srWrA=="
         }
       },
       "is_incremental": false,
@@ -100,12 +100,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "app_logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "app_logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/guard.md",
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "axfe8CncS2mfMB2LU5ncXA=="
+          "hash": "8aml+OKO+I9UeCg3GEtHfw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "rijloES9bYpbHk64TWrQNQ=="
+          "hash": "ldI/nJZ4HHr6QZ1RVgQg1A=="
         }
       },
       "is_incremental": false,
@@ -141,17 +152,6 @@
       "output": {
         "resource": {
           "relative_path": "logo.ico"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "logo.svg",
-      "output": {
-        "resource": {
-          "relative_path": "logo.svg"
         }
       },
       "is_incremental": false,
