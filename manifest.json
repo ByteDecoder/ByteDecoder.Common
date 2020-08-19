@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "t2W4uCeOPpurpYN3qIsecg=="
+          "hash": "ORgRUyU/sKB22LQf5AVXfQ=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "Qc2LHfXpA+KZ/YoKCLNFXQ=="
+          "hash": "eo+UdGDWvWSp99oL3PrJ6g=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "M62NuQB+h6u3/mYmjozHvw=="
+          "hash": "GByYYRuVPKT/QWp8XWzYvg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "ja9vNWn7AuggtR8mopEw9g=="
+          "hash": "sw5ZWHujklZv7pOWHIvA5Q=="
         }
       },
       "is_incremental": false,
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "LsAlv0k7nmohc87IGbph0w=="
+          "hash": "6iXhrNtWEImPdXJzTpU77w=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "G9le/oFdXECl2yia6UaIig=="
+          "hash": "zJkKO7c5tIUgBMFu6Tbjhw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "gVHZ1dCLguSMC4gdc1+/fQ=="
+          "hash": "pJaBtPN5K/3pNr4GYWY4Hg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -105,10 +105,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "ERGbzv17+nsv8IKiCiBFag=="
+          "hash": "ZOLD45bYPlu3LxCQcI9Vpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "xMHAf6mQry7JVLcktEcwjw=="
+          "hash": "43s0ELlZw0WWMqEWGnXUUQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -151,23 +151,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
