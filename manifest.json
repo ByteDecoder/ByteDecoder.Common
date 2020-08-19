@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "rYrYFRYVyNWFO1OtFusLvA=="
+          "hash": "JHNL+F3INX1RshFduk0Vxw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "CrAAJ5/vkWJV3jnS0jRENA=="
+          "hash": "x4Q1C+3iRnMY/VQTN57rSw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "mQMRQOQE/0/2EvdfPZ1yLA=="
+          "hash": "w0TszNvGAR9ybaA56jH3QQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "7+CV6nbpEdbcIicIg9ksTA=="
+          "hash": "eB4cvMTHpOdxrlTX1qLF2w=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "qmywVR2VrwVtNfnLsR/myw=="
+          "hash": "CluAFRDEMVVXT2jujysp0A=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "8ziRn1Lv3CUlOBr1e02eIw=="
+          "hash": "2cDqYZAtxoSnM1JgpPeVjA=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "YFXarP3SxFwf8Byb6DKajw=="
+          "hash": "sabIqzeEA9eZQsUcUjM9uQ=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "zLhB2JUlOv47t1/OCeJXTA=="
+          "hash": "fkcnqINfr4sLaLvm/2V+4w=="
         }
       },
       "is_incremental": false,
@@ -140,7 +140,18 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "j+/+0Cpdm6YsAGy4OW9ILg=="
+          "hash": "pL0foMWn1XRZO5NH/H7Tjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
         }
       },
       "is_incremental": false,
