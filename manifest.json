@@ -9,10 +9,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "KV7/3zUJS/uhI4rz7EOjPg=="
+          "hash": "/GCmbSlWgE4oB3bbfPR+kA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -21,10 +21,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "ulz+186BZLPuEoM3/NEkzg=="
+          "hash": "54WzgMmagD8gAKy2W+MraQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -33,10 +33,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "6ecfXylEl/Xz8hgPzXarkw=="
+          "hash": "MuHpWxRtPml5RHc419ZTKg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -45,10 +45,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "iW9XJYFmJI74idRIYc533w=="
+          "hash": "lhHBMhsynVyarefJemJDpw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -57,10 +57,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "aG4jhyIpLafWczk48U/PwQ=="
+          "hash": "zMF3iNdPUw1AxbWJGy6IqA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -69,10 +69,10 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "H/G1eyQJTf+9L8XEDxAXaA=="
+          "hash": "/YKYBB3Y7BADfIgymJkNdw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -81,10 +81,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "x8eILq4syJ/CDCZia2n8dQ=="
+          "hash": "Qn/554O3OU0Ar1eGqL30/Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -94,6 +94,17 @@
         ".html": {
           "relative_path": "api/toc.html",
           "hash": "UQysZqOdw3iE61qsE+ZxUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "app_logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "app_logo.png"
         }
       },
       "is_incremental": false,
@@ -116,10 +127,10 @@
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "MZU8f+yh2pbPBfmhqcrqKQ=="
+          "hash": "E9vkH418zlg/RXhLhuCbyg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -140,10 +151,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "XQ1TbVcdw3evxXwg4c/TqQ=="
+          "hash": "5l1HbGkcWws3T9ylSS4GXQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -173,23 +184,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
-          "skipped_file_count": 3
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 6,
-          "skipped_file_count": 6
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
