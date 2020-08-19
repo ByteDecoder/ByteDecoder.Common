@@ -8,7 +8,7 @@
     <title>ByteDecoder.Common </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="ByteDecoder.Common ">
-    <meta name="generator" content="docfx 2.45.1.0">
+    <meta name="generator" content="docfx 2.51.0.0">
     
     <link rel="shortcut icon" href="logo.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -75,41 +75,9 @@
 <h3 id="net-core-cli">.NET Core CLI</h3>
 <pre><code class="lang-bash">dotnet add package ByteDecoder.Common
 </code></pre>
-<h2 id="examples-and-usage">Examples and usage</h2>
-<h3 id="guard-clauses">Guard Clauses</h3>
-<p>They are a piece of code in charge of protecting params at the top of methods against undesirable values.</p>
-<p>Supported <em>Guard Clauses</em>:</p>
-<ul>
-<li>IfArgumentIsNull</li>
-<li>IfArgumentIsNullOrEmpty</li>
-<li>IfArgumentOutOfRange</li>
-</ul>
-<p>Usage examples:</p>
-<pre><code class="lang-csharp">using ByteDecoder.Common.GuardClauses;
-
-// Null Argument Guard check
-public void MethodOne(IEnumerable&lt;string&gt; collection)
-{
-  Guard.Break.IfArgumentIsNull(collection, nameof(collection));
-  
-  // More logic code if the param is suitable after the guard evaluates the condition.
-}
-
-// String is NUll or Empty Guard check
-public void MethodTwo(string word)
-{
-  Guard.Break.IfArgumentIsNull(word, nameof(word));
-  
-  // More logic code if the param is suitable after the guard evaluates the condition.
-}
-
-// Calling the method and passing a null value in the param
-MethodOne((IEnumerable&lt;string&gt;) null);  // This will throw an ArgumentNullException
-MethodTwo(string.Empty);  // This will throw an ArgumentNullException
-</code></pre>
 <h2 id="contributing">Contributing</h2>
 <p>Bug reports and pull requests are welcome on GitHub at <a href="https://github.com/ByteDecoder/ByteDecoder.Common">https://github.com/ByteDecoder/ByteDecoder.Common</a>.</p>
-<p>Copyright (c) 2020 <a href="https://twitter.com/bytedecoder">Rodrigo Reyes</a> released under the MIT license</p>
+<p>Copyright (c) 2020 <a href="https://twitter.com/bytedecoder">Rodrigo Reyes</a> released under the MIT license.</p>
 </article>
           </div>
           
