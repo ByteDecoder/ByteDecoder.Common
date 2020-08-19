@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.Guard.html",
-          "hash": "e5EojSmKD5/FVw/u9E/z+A=="
+          "hash": "JrxhJWR2TM4/0nFvnfQivw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.IGuardClause.html",
-          "hash": "4GxJcHbl2xBLaDY4rRhyug=="
+          "hash": "p+8v6qHfi/E1BlxWL87oOw=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.ValidatedNotNullAttribute.html",
-          "hash": "tbpazsTRG1Tz38GDvuQJXA=="
+          "hash": "MToBa7TPCIpjtPPMg2OyVQ=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.GuardClauses.html",
-          "hash": "9gM3n6AC98wm3AZB4zyUpw=="
+          "hash": "jeaM8wcX/zhi8d5skoIxIg=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.MathComparisonExtensions.html",
-          "hash": "vT4UOHWtYmgxRwTgRVT6NQ=="
+          "hash": "5QV5N2hv3Ohox3vb/sj66Q=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ByteDecoder.Common.html",
-          "hash": "Y/VgGr/tpXJiyT6D+qKZSg=="
+          "hash": "bRBJfh4CVA67ldy0AL8c7A=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "XLgv8e6JoLKRn/CM1srWrA=="
+          "hash": "Ya968qMjSSX/XjN55u67Uw=="
         }
       },
       "is_incremental": false,
@@ -101,10 +101,10 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "app_logo.svg",
+      "source_relative_path": "app_logo.png",
       "output": {
         "resource": {
-          "relative_path": "app_logo.svg"
+          "relative_path": "app_logo.png"
         }
       },
       "is_incremental": false,
@@ -116,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/guard.html",
-          "hash": "8aml+OKO+I9UeCg3GEtHfw=="
+          "hash": "PuIPKIWwQ7lB+X+Jn8kneg=="
         }
       },
       "is_incremental": false,
@@ -140,7 +140,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "ldI/nJZ4HHr6QZ1RVgQg1A=="
+          "hash": "CF1AcmptoinslcDa6tWxdA=="
         }
       },
       "is_incremental": false,
