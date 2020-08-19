@@ -101,17 +101,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "app_logo.png",
-      "output": {
-        "resource": {
-          "relative_path": "app_logo.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "app_logo.svg",
       "output": {
         "resource": {
