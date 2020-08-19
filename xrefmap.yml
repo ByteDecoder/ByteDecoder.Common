@@ -76,13 +76,13 @@ references:
   isSpec: "True"
   fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentIsNullOrEmpty
   nameWithType: Guard.IfArgumentIsNullOrEmpty
-- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(System.Func{System.Boolean},System.String,System.String)
+- uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
   name: IfArgumentOutOfRange(Func<Boolean>, String, String)
-  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentOutOfRange_System_Func_System_Boolean__System_String_System_String_
-  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(System.Func{System.Boolean},System.String,System.String)
+  href: api/ByteDecoder.Common.GuardClauses.Guard.html#ByteDecoder_Common_GuardClauses_Guard_IfArgumentOutOfRange_Func_System_Boolean__System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
   name.vb: IfArgumentOutOfRange(Func(Of Boolean), String, String)
-  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(System.Func<System.Boolean>, System.String, System.String)
-  fullName.vb: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(System.Func(Of System.Boolean), System.String, System.String)
+  fullName: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func<System.Boolean>, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange(Func(Of System.Boolean), System.String, System.String)
   nameWithType: Guard.IfArgumentOutOfRange(Func<Boolean>, String, String)
   nameWithType.vb: Guard.IfArgumentOutOfRange(Func(Of Boolean), String, String)
 - uid: ByteDecoder.Common.GuardClauses.Guard.IfArgumentOutOfRange*
@@ -142,13 +142,13 @@ references:
   isSpec: "True"
   fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentIsNullOrEmpty
   nameWithType: IGuardClause.IfArgumentIsNullOrEmpty
-- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(System.Func{System.Boolean},System.String,System.String)
+- uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
   name: IfArgumentOutOfRange(Func<Boolean>, String, String)
-  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentOutOfRange_System_Func_System_Boolean__System_String_System_String_
-  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(System.Func{System.Boolean},System.String,System.String)
+  href: api/ByteDecoder.Common.GuardClauses.IGuardClause.html#ByteDecoder_Common_GuardClauses_IGuardClause_IfArgumentOutOfRange_Func_System_Boolean__System_String_System_String_
+  commentId: M:ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func{System.Boolean},System.String,System.String)
   name.vb: IfArgumentOutOfRange(Func(Of Boolean), String, String)
-  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(System.Func<System.Boolean>, System.String, System.String)
-  fullName.vb: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(System.Func(Of System.Boolean), System.String, System.String)
+  fullName: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func<System.Boolean>, System.String, System.String)
+  fullName.vb: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange(Func(Of System.Boolean), System.String, System.String)
   nameWithType: IGuardClause.IfArgumentOutOfRange(Func<Boolean>, String, String)
   nameWithType.vb: IGuardClause.IfArgumentOutOfRange(Func(Of Boolean), String, String)
 - uid: ByteDecoder.Common.GuardClauses.IGuardClause.IfArgumentOutOfRange*
