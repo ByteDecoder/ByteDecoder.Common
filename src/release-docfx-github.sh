@@ -23,5 +23,4 @@ git config --global user.email ${DOCFX_GITHUB_EMAIL}
 git config --global user.name "ByteDecoder"
 
 git add . -A
-git commit -m "Update generated documentation"
-git push origin gh-pages
+git diff-index --quiet HEAD || git commit -m "Update generated documentation" || git push origin gh-pages
