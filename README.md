@@ -3,6 +3,7 @@
 ![.NET Core](https://github.com/ByteDecoder/ByteDecoder.Common/workflows/.NET%20Core/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/024aeeba0e933733b9dd/maintainability)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/024aeeba0e933733b9dd/test_coverage)](https://codeclimate.com/github/ByteDecoder/ByteDecoder.Common/test_coverage)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Common utility classes, guard clauses, and more.
 
