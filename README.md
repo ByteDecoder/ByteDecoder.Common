@@ -25,6 +25,10 @@ Install-Package ByteDecoder.Common
 dotnet add package ByteDecoder.Common
 ```
 
+## Documentation
+
+All the documentation can be found on the [github page](https://bytedecoder.me/ByteDecoder.Common/).
+
 ## Examples and usage
 
 ### Guard Clauses
