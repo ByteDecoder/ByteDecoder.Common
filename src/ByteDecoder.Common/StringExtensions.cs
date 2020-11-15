@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
 namespace ByteDecoder.Common
 {
@@ -24,7 +25,14 @@ namespace ByteDecoder.Common
         /// <returns>Parse result.</returns>
         public static double ToDouble(this string source)
         {
-            return double.Parse(source, NumberFormatInfo.CurrentInfo);
+            try
+            {
+                return double.Parse(source, NumberFormatInfo.CurrentInfo);
+            }
+            catch (FormatException)
+            {
+                return double.NaN;
+            }
         }
     }
 }
