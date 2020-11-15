@@ -27,7 +27,7 @@ namespace ByteDecoder.Common.Tests
             // Act
             var exception = Record.Exception(() =>
             {
-                int result = stringNumber.ToInt();
+                stringNumber.ToInt();
             });
 
             // Assert
