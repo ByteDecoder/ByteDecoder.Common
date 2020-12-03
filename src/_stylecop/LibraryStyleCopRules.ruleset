@@ -12,5 +12,7 @@
     <Rule Id="SA1503" Action="None" />
     <!-- The file header is missing or not located at the top of the file. -->
     <Rule Id="SA1633" Action="None" />
+    <!-- The parameters should all be placed on the same line or each parameter should be placed on its own line. -->
+    <Rule Id="SA1117" Action="None" />
   </Rules>
 </RuleSet>
