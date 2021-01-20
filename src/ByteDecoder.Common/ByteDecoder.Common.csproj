@@ -16,7 +16,7 @@
     <RepositoryType>MIT</RepositoryType>
     <PackageTags>csharp netstandard2.0</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.3.4</Version>
+    <Version>0.3.5</Version>
     <PackageIcon>icon.png</PackageIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <AssemblyName>ByteDecoder.Common</AssemblyName>
