@@ -9,6 +9,7 @@ namespace ByteDecoder.Common.Tests
         {
             Aba,
             Opal,
+            Nepal,
         }
 
         [Fact]
@@ -48,7 +49,7 @@ namespace ByteDecoder.Common.Tests
             var value = "Aba";
 
             // Act
-            var result = value.ToEnum(Testify.Opal);
+            var result = value.ToEnum(Testify.Nepal);
 
             // Assert
             Assert.Equal(Testify.Aba, result);
