@@ -59,5 +59,44 @@ namespace ByteDecoder.Common.Tests
             // Assert
             Assert.True(double.IsNaN(result));
         }
+
+        [Fact]
+        public void ToCamelCase_ReturnsValidResults_WhenInputLenghtIsGreaterThanOne()
+        {
+            // Arrange
+            var source = "SuperLupper";
+
+            // Act
+            var result = source.ToCamelCase();
+
+            // Assert
+            Assert.Equal("superLupper", result);
+        }
+
+        [Fact]
+        public void ToCamelCase_ReturnsSameString_WhenInputLenghtIsNotGreaterThanOne()
+        {
+            // Arrange
+            var source = "S";
+
+            // Act
+            var result = source.ToCamelCase();
+
+            // Assert
+            Assert.Equal("S", result);
+        }
+
+        [Fact]
+        public void ToCamelCase_ReturnsSameInput_WhenInputLenghtIsEmpty()
+        {
+            // Arrange
+            var source = string.Empty;
+
+            // Act
+            var result = source.ToCamelCase();
+
+            // Assert
+            Assert.Equal(string.Empty, result);
+        }
     }
 }
