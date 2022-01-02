@@ -2,45 +2,42 @@ name: .NET Core
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.405
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.101
 
-    - name: Install dependencies
-      run: cd src && dotnet restore
+      - name: Install dependencies
+        run: cd src && dotnet restore
 
-    - name: Build
-      run: cd src && dotnet build --configuration Release --no-restore
+      - name: Build
+        run: cd src && dotnet build --configuration Release --no-restore
 
-    - name: Linting code with dotnet-format
-      run: cd src && ./run-dotnet-format.sh
+      - name: Linting code with dotnet-format
+        run: cd src && ./run-dotnet-format.sh
 
-    - name: Test
-      run: cd src && ./codeclimate_code_coverage.sh
-      env:
-        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-    
-    - name: docfx-action
-      uses: nikeee/docfx-action@v1.0.0
-      with:
-        args: docs/docfx.json
-    
-    - name: Update Library DocFx documentation
-      run: cd src && ./release-docfx-github.sh
-      env:
-        BYTEDECODER_COMMON_GITHUB_CI_ACTIONS: ${{ secrets.BYTEDECODER_COMMON_GITHUB_CI_ACTIONS }}
-        DOCFX_GITHUB_EMAIL: ${{ secrets.DOCFX_GITHUB_EMAIL }}
+      - name: Test
+        run: cd src && ./codeclimate_code_coverage.sh
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
 
+      - name: docfx-action
+        uses: nikeee/docfx-action@v1.0.0
+        with:
+          args: docs/docfx.json
 
+      - name: Update Library DocFx documentation
+        run: cd src && ./release-docfx-github.sh
+        env:
+          BYTEDECODER_COMMON_GITHUB_CI_ACTIONS: ${{ secrets.BYTEDECODER_COMMON_GITHUB_CI_ACTIONS }}
+          DOCFX_GITHUB_EMAIL: ${{ secrets.DOCFX_GITHUB_EMAIL }}
