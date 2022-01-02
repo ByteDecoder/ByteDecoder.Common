@@ -8,7 +8,7 @@
 
 Common utility classes, guard clauses, and more.
 
-Targeted to .Net Standard 2.0
+Targeted to .Net6 onwards
 
 ## Installation
 
@@ -36,7 +36,7 @@ All the documentation can be found on the [github page](https://bytedecoder.me/B
 
 They are a piece of code in charge of protecting params at the top of methods against undesirable values.
 
-Supported *Guard Clauses*:
+Supported _Guard Clauses_:
 
 - IfArgumentIsNull
 - IfArgumentIsNullOrEmpty
@@ -51,7 +51,7 @@ using ByteDecoder.Common.GuardClauses;
 public void MethodOne(IEnumerable<string> collection)
 {
   Guard.Break.IfArgumentIsNull(collection, nameof(collection));
-  
+
   // More logic code if the param is suitable after the guard evaluates the condition.
 }
 
@@ -59,7 +59,7 @@ public void MethodOne(IEnumerable<string> collection)
 public void MethodTwo(string word)
 {
   Guard.Break.IfArgumentIsNull(word, nameof(word));
-  
+
   // More logic code if the param is suitable after the guard evaluates the condition.
 }
 

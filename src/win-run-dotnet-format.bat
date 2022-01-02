@@ -4,5 +4,5 @@ cls
 
 echo Legion awaits
 
-dotnet tool update -g dotnet-format
-dotnet format --check --verbosity diagnostic
+dotnet tool update dotnet-format
+dotnet format --verbosity diagnostic

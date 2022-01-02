@@ -1,38 +1,60 @@
+# Changelog
+
+## Version Changes
+
+### 1.0.0 - 2022-01-02
+
+- C# 10 adopted
+- .Net Standard support deprecated
+- Support from .Net6 onwards
+- New CSA tools added into the build pipeline
+
 ### 0.3.6 - 2021-01-25
-  * Added ToCamelCase string extension methods.
+
+- Added ToCamelCase string extension methods.
 
 ### 0.3.5 - 2021-01-20
-  * Added ToEnum string extension methods.
-  * Added DateTimeOffset extensions methods.
+
+- Added ToEnum string extension methods.
+- Added DateTimeOffset extensions methods.
 
 ### 0.3.4 - 2020-08-19
-  * Transparent favicon added
+
+- Transparent favicon added
 
 ### 0.3.3 - 2020-08-19
-  * Library logos added in the DocFX documentation
-  
+
+- Library logos added in the DocFX documentation
+
 ### 0.3.2 - 2020-08-18
-  * DocFX documentation completed
-  * Official documentation url https://bytedecoder.me/ByteDecoder.Common/
-  
+
+- DocFX documentation completed
+- Official documentation url <https://bytedecoder.me/ByteDecoder.Common/>
+
 ### 0.3.1 - 2020-08-13
-  * Guard interface implementation refactored
-  * StyleCop and FxCop analyzers added as part of the development workflow
-  * Violating the analyzers rules will throw errors on compile, until they are fix
-  * All methods, classes and interfaces consumables for third parties in the Library has now documentation
+
+- Guard interface implementation refactored
+- StyleCop and FxCop analyzers added as part of the development workflow
+- Violating the analyzers rules will throw errors on compile, until they are fix
+- All methods, classes and interfaces consumables for third parties in the Library has now documentation
 
 ### 0.3.0 - 2020-07-29
-  * Added MathComparisonExtensions extensions methods for math comparisions
-  * Added IfArgumentOutOfRange Guard clause
+
+- Added MathComparisonExtensions extensions methods for math comparisions
+- Added IfArgumentOutOfRange Guard clause
 
 ### 0.2.3 - 2020-07-28
-  * Fixed problem with Possible multiple enumeration of IEnumerable using with Resharper with JETBRAINS_ANNOTATIONS compilation symbol 
+
+- Fixed problem with Possible multiple enumeration of IEnumerable using with Resharper with JETBRAINS_ANNOTATIONS compilation symbol
 
 ### 0.2.1 - 2020-07-28
-  * Added AllowedOutputExtensionsInPackageBuildOutputFolder in ByteDecoder.Common project
+
+- Added AllowedOutputExtensionsInPackageBuildOutputFolder in ByteDecoder.Common project
 
 ### 0.2.0 - 2020-07-27
-  * Added Jetbrains Annotations for avoding false positive: Possible multiple enumeration of IEnumerable
+
+- Added Jetbrains Annotations for avoding false positive: Possible multiple enumeration of IEnumerable
 
 ### 0.1.0 - 2020-07-27
-  * Initial release
+
+- Initial release

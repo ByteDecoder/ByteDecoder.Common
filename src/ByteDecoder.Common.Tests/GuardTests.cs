@@ -21,7 +21,7 @@ namespace ByteDecoder.Common.Tests
             // Act
             var exception = Record.Exception(() =>
             {
-                Guard.Break.IfArgumentIsNull((IEnumerable<string>)null, "collection");
+                Guard.Break.IfArgumentIsNull<IEnumerable<string>?>(null, "collection");
             });
 
             // Assert
@@ -49,7 +49,7 @@ namespace ByteDecoder.Common.Tests
             // Act
             var exception = Record.Exception(() =>
             {
-                Guard.Break.IfArgumentIsNull((IEnumerable<string>)null, "collection", "An error occurred");
+                Guard.Break.IfArgumentIsNull((IEnumerable<string>?)null, "collection", "An error occurred");
             });
 
             // Assert

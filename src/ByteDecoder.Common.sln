@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
-MinimumVisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteDecoder.Common", "ByteDecoder.Common\ByteDecoder.Common.csproj", "{8E47AA9F-A9AE-4104-B3EF-DDEC366C9D94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteDecoder.Common.Tests", "ByteDecoder.Common.Tests\ByteDecoder.Common.Tests.csproj", "{127AD73D-0572-4D6E-9EF2-23909C5A84E3}"
