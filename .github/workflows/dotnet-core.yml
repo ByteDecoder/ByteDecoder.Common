@@ -32,6 +32,9 @@ jobs:
       - name: Build
         run: cd src && dotnet build --configuration Release --no-restore
 
+      - name: Security Code Scan
+        run: cd src && ./run-security-code-scan.sh
+
       - name: Linting code with dotnet-format
         run: cd src && ./run-dotnet-format.sh
 
