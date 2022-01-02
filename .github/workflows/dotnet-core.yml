@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: cd src && dotnet restore
 
+      - name: .Net Version
+        run: cd src && dotnet --version
+
       - name: Build
         run: cd src && dotnet build --configuration Release --no-restore
 
