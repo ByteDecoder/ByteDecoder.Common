@@ -2,6 +2,13 @@
 
 ## Version Changes
 
+### 1.0.0 - 2022-01-02
+
+- C# 10 adopted
+- .Net Standard support deprecated
+- Support from .Net6 onwards
+- New CSA tools added into the build pipeline
+
 ### 0.3.6 - 2021-01-25
 
 - Added ToCamelCase string extension methods.
