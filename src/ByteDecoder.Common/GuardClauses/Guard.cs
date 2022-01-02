@@ -1,5 +1,4 @@
-﻿using System;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 
 namespace ByteDecoder.Common.GuardClauses
 {
@@ -22,7 +21,7 @@ namespace ByteDecoder.Common.GuardClauses
         /// <typeparam name="T">Generic type for the guard.</typeparam>
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
-        public void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName) where T : class
+        public void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName)
         {
             if (source == null)
                 throw new ArgumentNullException(paramName);
@@ -35,7 +34,10 @@ namespace ByteDecoder.Common.GuardClauses
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
         /// <param name="message">Message if guard clause breaks.</param>
-        public void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName, string message) where T : class
+        public void IfArgumentIsNull<T>(
+            [NoEnumeration][ValidatedNotNull] T source,
+            string paramName,
+            string message)
         {
             if (source == null)
                 throw new ArgumentNullException(paramName, message);
@@ -46,7 +48,7 @@ namespace ByteDecoder.Common.GuardClauses
         /// </summary>
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
-        public void IfArgumentIsNullOrEmpty(string source, string paramName)
+        public void IfArgumentIsNullOrEmpty(string? source, string paramName)
         {
             if (string.IsNullOrEmpty(source))
                 throw new ArgumentNullException(paramName);
@@ -58,7 +60,7 @@ namespace ByteDecoder.Common.GuardClauses
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
         /// <param name="message">Message if guard clause breaks.</param>
-        public void IfArgumentIsNullOrEmpty(string source, string paramName, string message)
+        public void IfArgumentIsNullOrEmpty(string? source, string paramName, string message)
         {
             if (string.IsNullOrEmpty(source))
                 throw new ArgumentNullException(paramName, message);

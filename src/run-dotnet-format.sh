@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
 
-dotnet tool update -g dotnet-format
-dotnet format --check --verbosity diagnostic
+dotnet tool update dotnet-format
+dotnet format --verbosity diagnostic
 

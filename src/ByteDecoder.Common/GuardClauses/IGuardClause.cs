@@ -1,5 +1,4 @@
-﻿using System;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 
 namespace ByteDecoder.Common.GuardClauses
 {
@@ -14,7 +13,7 @@ namespace ByteDecoder.Common.GuardClauses
         /// <typeparam name="T">Generic type for the guard.</typeparam>
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
-        void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName) where T : class;
+        void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName);
 
         /// <summary>
         /// Guard and check a value if is not null.
@@ -23,14 +22,17 @@ namespace ByteDecoder.Common.GuardClauses
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
         /// <param name="message">Message if guard clause breaks.</param>
-        void IfArgumentIsNull<T>([NoEnumeration][ValidatedNotNull] T source, string paramName, string message) where T : class;
+        void IfArgumentIsNull<T>(
+            [NoEnumeration][ValidatedNotNull] T source,
+            string paramName,
+            string message);
 
         /// <summary>
         /// Guard and check a value if is not null or neither empty.
         /// </summary>
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
-        void IfArgumentIsNullOrEmpty(string source, string paramName);
+        void IfArgumentIsNullOrEmpty(string? source, string paramName);
 
         /// <summary>
         /// Guard and check a value if is not null or neither empty.
@@ -38,7 +40,7 @@ namespace ByteDecoder.Common.GuardClauses
         /// <param name="source">Instance source.</param>
         /// <param name="paramName">Param name.</param>
         /// <param name="message">Message if guard clause breaks.</param>
-        void IfArgumentIsNullOrEmpty(string source, string paramName, string message);
+        void IfArgumentIsNullOrEmpty(string? source, string paramName, string message);
 
         /// <summary>
         /// Guard and check a value if is in a range.
