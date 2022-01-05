@@ -4,7 +4,7 @@ clear
 
 rm -r ../coverage/*
 
-dotnet test ByteDecoder.Common.sln --logger:trx \
+dotnet test ByteDecoder.Common.sln -c Release --logger:trx \
    --results-directory ../../coverage \
    /p:CollectCoverage=true \
    /p:CoverletOutput=../../coverage/ \

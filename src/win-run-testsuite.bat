@@ -5,7 +5,7 @@ cls
 echo Legion awaits
 del /S /Q ..\coverage\ >nul 2>nul
 
-dotnet test ByteDecoder.Common.sln --logger:trx ^
+dotnet test ByteDecoder.Common.sln -c Release --logger:trx ^
   --results-directory ../../coverage ^
   /p:CollectCoverage=true ^
   /p:CoverletOutput=../../coverage/ ^
