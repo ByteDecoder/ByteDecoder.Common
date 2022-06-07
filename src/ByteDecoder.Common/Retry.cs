@@ -7,7 +7,7 @@
 /// Retry.Do(() => SomeFunctionThatCanFail(), TimeSpan.FromSeconds(1));
 /// Retry.Do(SomeFunctionThatCanFail, TimeSpan.FromSeconds(1));
 /// int result = Retry.Do(SomeFunctionWhichReturnsInt, TimeSpan.FromSeconds(1), 4);
-/// await DoAsync(DoSomethingAsync, TimeSpan.FromSeconds(2), tryCount: 10);
+/// await DoAsync(DoSomethingAsync, TimeSpan.FromSeconds(2), tryCount: 10);.
 /// </summary>
 public static class Retry
 {
@@ -66,12 +66,12 @@ public static class Retry
     /// Retry async version.
     ///
     /// Usage:
-    /// await DoAsync(DoSomethingAsync, TimeSpan.FromSeconds(2), tryCount: 10);
+    /// await DoAsync(DoSomethingAsync, TimeSpan.FromSeconds(2), tryCount: 10);.
     /// </summary>
     /// <param name="action"></param>
     /// <param name="sleepPeriod"></param>
     /// <param name="tryCount"></param>
-    /// <returns></returns>
+    /// <returns><placeholder>A <see cref="Task"/> representing the asynchronous operation.</placeholder></returns>
     public static async Task DoAsync(Func<Task> action, TimeSpan sleepPeriod, int tryCount = 3)
     {
         if (tryCount <= 0)
@@ -81,14 +81,14 @@ public static class Retry
         {
             try
             {
-                await action();
+                await action().ConfigureAwait(false);
                 return;
             }
             catch
             {
                 if (--tryCount == 0)
                     throw;
-                await Task.Delay(sleepPeriod);
+                await Task.Delay(sleepPeriod).ConfigureAwait(false);
             }
         }
     }
